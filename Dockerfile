@@ -1,6 +1,6 @@
 ARG IMAGE=scratch
 ARG OS=linux
-ARG ARCH=amd64
+ARG ARCH=armv7l
 
 FROM golang:1.16.4-alpine3.12 as builder
 
